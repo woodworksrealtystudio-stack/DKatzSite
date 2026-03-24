@@ -98,7 +98,7 @@ export default function Hero() {
                 src="/assets/headshot.png"
                 alt="Eli Bock, Founder"
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
               {/* Overlay gradient */}

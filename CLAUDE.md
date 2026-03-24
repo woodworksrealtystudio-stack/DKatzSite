@@ -14,11 +14,18 @@ Figuring out a useful product for realtors, getting paying clients, and becoming
 
 ## Tools
 - AI: Claude (Claude Code), ChatGPT, Gemini, Perplexity
-- Communication: Gmail (MCP integrated), WhatsApp, Instagram
-- MCP servers: Gmail MCP connected (see `docs/gmail-mcp-setup.md`)
+- Communication: Gmail, WhatsApp, Instagram
+- MCP servers: Composio MCP (unified integration for Gmail, Google Docs, Drive, GitHub)
 
-### Gmail Integration
-Gmail has been integrated via `gmail-app-password-mcp`. Configured and authenticated, awaiting full Claude Code MCP tool support. See `docs/gmail-mcp-setup.md` for details and setup status.
+### MCP Integrations
+Composio MCP provides unified access to multiple services:
+- **Gmail** - Read, send, search, draft, label, archive emails (see `docs/gmail-mcp-setup.md`)
+- **Google Docs** - Create, read, update documents
+- **Google Drive** - List, upload, download, organize files
+- **GitHub** - Manage repos, issues, PRs
+- And 300+ other integrations via Composio
+
+See `docs/composio-mcp-setup.md` for setup details and configuration.
 
 ## Projects
 Active workstreams live in `projects/`. Each has a README with description, status, and key dates.
