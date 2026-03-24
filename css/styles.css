@@ -351,7 +351,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding: 80px 2rem 0;
   background: url('../assets/website-background.png') center / cover no-repeat fixed;
   overflow: hidden;
 }
@@ -1527,22 +1527,27 @@ img {
 
   .hero {
     min-height: auto;
-    padding: 7rem 0 4rem;
+    padding: 4rem 0 3rem;
+    background-attachment: scroll;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    max-width: 100%;
   }
 
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 1.5rem;
     text-align: center;
+    max-width: 100%;
   }
 
   .hero p {
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.95rem;
+    max-width: 100%;
   }
 
   .hero-image {
@@ -1550,8 +1555,9 @@ img {
   }
 
   .hero-image img {
-    width: 65%;
-    max-width: 300px;
+    width: 70%;
+    max-width: 200px;
+    height: auto;
     margin: 0 auto;
     aspect-ratio: 4 / 5;
   }
@@ -1620,11 +1626,19 @@ img {
   }
 
   .hero {
-    padding: 6rem 0 3rem;
+    padding: 3rem 0 2.5rem;
+  }
+
+  .hero h1 {
+    font-size: 1.25rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
   }
 
   .section {
-    padding: 3.5rem 0;
+    padding: 2.5rem 0;
   }
 
   .contact-form {
@@ -1632,8 +1646,8 @@ img {
   }
 
   .hero-image img {
-    width: 60%;
-    max-width: 240px;
+    width: 75%;
+    max-width: 180px;
   }
 
   .back-to-top {
