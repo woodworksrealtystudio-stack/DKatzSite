@@ -424,7 +424,7 @@ img {
   max-width: 100%;
   height: auto;
   aspect-ratio: auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   border-radius: var(--radius-md);
   border: 2px solid rgba(255, 255, 255, 0.08);
@@ -1553,11 +1553,14 @@ img {
   .hero-image {
     order: -1;
     margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .hero-image img {
-    width: 60%;
-    max-width: 220px;
+    width: 50%;
+    max-width: 180px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -1647,8 +1650,8 @@ img {
   }
 
   .hero-image img {
-    width: 55%;
-    max-width: 160px;
+    width: 45%;
+    max-width: 140px;
   }
 
   .back-to-top {
