@@ -1551,11 +1551,7 @@ img {
   }
 
   .hero-image {
-    order: -1;
-    margin-bottom: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    display: none;
   }
 
   .hero-image img {
