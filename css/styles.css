@@ -374,12 +374,12 @@ img {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .hero-content {
@@ -421,10 +421,10 @@ img {
 
 .hero-image img {
   width: 100%;
-  max-width: none;
-  height: 80vh;
+  max-width: 100%;
+  height: auto;
   aspect-ratio: auto;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   border-radius: var(--radius-md);
   border: 2px solid rgba(255, 255, 255, 0.08);
@@ -1552,14 +1552,15 @@ img {
 
   .hero-image {
     order: -1;
+    margin-bottom: 1rem;
   }
 
   .hero-image img {
-    width: 70%;
-    max-width: 200px;
+    width: 60%;
+    max-width: 220px;
     height: auto;
     margin: 0 auto;
-    aspect-ratio: 4 / 5;
+    display: block;
   }
 
   .dual-cards {
@@ -1646,8 +1647,8 @@ img {
   }
 
   .hero-image img {
-    width: 75%;
-    max-width: 180px;
+    width: 55%;
+    max-width: 160px;
   }
 
   .back-to-top {
