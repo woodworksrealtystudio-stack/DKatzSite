@@ -14,8 +14,11 @@ Figuring out a useful product for realtors, getting paying clients, and becoming
 
 ## Tools
 - AI: Claude (Claude Code), ChatGPT, Gemini, Perplexity
-- Communication: Gmail, WhatsApp, Instagram
-- MCP servers: None connected yet -- this is a high-leverage thing to add over time
+- Communication: Gmail (MCP integrated), WhatsApp, Instagram
+- MCP servers: Gmail MCP connected (see `docs/gmail-mcp-setup.md`)
+
+### Gmail Integration
+Gmail has been integrated via `gmail-app-password-mcp`. Configured and authenticated, awaiting full Claude Code MCP tool support. See `docs/gmail-mcp-setup.md` for details and setup status.
 
 ## Projects
 Active workstreams live in `projects/`. Each has a README with description, status, and key dates.
@@ -32,8 +35,10 @@ Skills are built organically as recurring workflows emerge -- don't build them s
 
 Pattern: `.claude/skills/skill-name/SKILL.md`
 
+**Active Skills:**
+- `instagram-carousel` -- Create Clean White Carousel Instagram posts (as of 2026-03-17)
+
 **Skills Backlog** (to build over time):
-- Instagram carousel creation
 - AI news briefing and research
 - Meeting prep
 - Content drafting
@@ -50,6 +55,9 @@ Claude Code maintains persistent memory across conversations. It automatically s
 
 ## Templates
 Reusable templates live in `templates/`.
+
+## Brand Assets
+Logos, headshots, and visual brand materials live in `brand-assets/`. Reference these when working on anything visual -- website, content, decks, etc.
 
 ## References
 SOPs and example outputs live in `references/`.
